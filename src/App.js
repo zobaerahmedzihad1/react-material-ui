@@ -1,6 +1,7 @@
 import { Typography } from "@mui/material";
 import "./App.css";
-import MuiTypography from "./components/MuiTypography";
+import MuiButton from "./components/MuiButton";
+// import MuiTypography from "./components/MuiTypography";
 
 function App() {
   return (
@@ -8,7 +9,8 @@ function App() {
       <Typography variant="h3" align="center">
         Learn React Material ui
       </Typography>
-      <MuiTypography />
+      {/* <MuiTypography /> */}
+      <MuiButton/>
     </div>
   );
 }
