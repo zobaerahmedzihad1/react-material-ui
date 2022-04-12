@@ -1,10 +1,12 @@
-import logo from './logo.svg';
-import './App.css';
+import { Typography } from "@mui/material";
+import "./App.css";
+import MuiTypography from "./components/MuiTypography";
 
 function App() {
   return (
     <div className="App">
-      <h2>Learn React Material ui</h2>
+      <Typography variant="h3" align="center">Learn React Material ui</Typography>
+      <MuiTypography/>
     </div>
   );
 }
