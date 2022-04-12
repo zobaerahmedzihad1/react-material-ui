@@ -35,6 +35,7 @@ const MuiTypography = () => {
       <Typography variant="h4">h4 Typography Heading.</Typography>
       <Typography variant="h5">h5 Typography Heading.</Typography>
       <Typography variant="h6">h6 Typography Heading.</Typography>
+      <Typography>Normal but use body One by default.</Typography>
 
       <Typography variant="button">Button</Typography>
       <Typography variant="caption">Caption</Typography>
