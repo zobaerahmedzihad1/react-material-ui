@@ -28,14 +28,14 @@ const MuiTypography = () => {
   theme = responsiveFontSizes(theme);
 
   return (
-    <Stack>
+    <Stack>  
       <Typography variant="h1">h1 Typography Heading.</Typography>
       <Typography variant="h2">h2 Typography Heading.</Typography>
       <Typography variant="h3">h3 Typography Heading.</Typography>
       <Typography variant="h4">h4 Typography Heading.</Typography>
       <Typography variant="h5">h5 Typography Heading.</Typography>
       <Typography variant="h6">h6 Typography Heading.</Typography>
-      <Typography>Normal but use body One by default.</Typography>
+      <Typography> Normal but use body One by default.</Typography>
 
       <Typography variant="button">Button</Typography>
       <Typography variant="caption">Caption</Typography>
@@ -46,7 +46,9 @@ const MuiTypography = () => {
       </Typography>
 
       {/* responsive font sizes. */}
+
       <Typography variant="h2"> Without Responsive variant h3</Typography>
+      
       <ThemeProvider theme={theme}>
         <Typography variant="h2">Responsive variant h3</Typography>
         <Typography variant="h3">Responsive variant h4</Typography>
@@ -61,22 +63,16 @@ const MuiTypography = () => {
       </Typography>
 
       <Typography variant="subtitle2">
-        subtitle2 : Lorem ipsum dolor sit amet consectetur adipisicing elit. Est
-        recusandae, nihil maiores inventore quibusdam fuga perferendis omnis
-        ducimus eveniet tempore.{" "}
+        subtitle2 : Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam commodi ratione quam asperiores sunt ipsa perferendis eligendi deserunt ullam aspernatur quasi, minus blanditiis architecto quidem!
       </Typography>
 
       {/* body element */}
 
       <Typography variant="body1">
-        body 1 : Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-        Deserunt temporibus laboriosam odit ut nesciunt quos delectus? Eius
-        nostrum nemo praesentium!
+        body 1 : Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi nam eaque aliquid fugiat mollitia, ullam dolorem commodi deleniti vero! Exercitationem nostrum sed atque cupiditate quibusdam!
       </Typography>
       <Typography variant="body2">
-        body 2 : Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-        Deserunt temporibus laboriosam odit ut nesciunt quos delectus? Eius
-        nostrum nemo praesentium!
+        body 2 : Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima, laboriosam doloribus! Odit ipsa dignissimos aperiam illo quisquam exercitationem quis nihil aliquid quasi at cum, temporibus ut doloremque, est ipsam rerum.
       </Typography>
     </Stack>
   );
