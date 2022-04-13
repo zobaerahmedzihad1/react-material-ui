@@ -1,6 +1,7 @@
 import { Typography } from "@mui/material";
 import "./App.css";
-import MuiButton from "./components/MuiButton";
+import MuiButtonGroup from "./components/MuiButtonGroup";
+// import MuiButton from "./components/MuiButton";
 // import MuiTypography from "./components/MuiTypography";
 
 function App() {
@@ -10,7 +11,8 @@ function App() {
         Learn React Material ui
       </Typography>
       {/* <MuiTypography /> */}
-      <MuiButton/>  
+      {/* <MuiButton/>   */}
+      <MuiButtonGroup/>
     </div>
   );
 }
