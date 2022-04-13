@@ -10,7 +10,7 @@ function App() {
         Learn React Material ui
       </Typography>
       {/* <MuiTypography /> */}
-      <MuiButton/>
+      <MuiButton/>  
     </div>
   );
 }
