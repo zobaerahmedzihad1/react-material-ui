@@ -1,6 +1,7 @@
 import { Typography } from "@mui/material";
 import "./App.css";
-import MuiButtonGroup from "./components/MuiButtonGroup";
+import MuiToggleButton from "./components/MuiToggleButton";
+// import MuiButtonGroup from "./components/MuiButtonGroup";
 // import MuiButton from "./components/MuiButton";
 // import MuiTypography from "./components/MuiTypography";
 
@@ -12,7 +13,8 @@ function App() {
       </Typography>
       {/* <MuiTypography /> */}
       {/* <MuiButton/>   */}
-      <MuiButtonGroup/>
+      {/* <MuiButtonGroup/> */}
+      <MuiToggleButton/>
     </div>
   );
 }
